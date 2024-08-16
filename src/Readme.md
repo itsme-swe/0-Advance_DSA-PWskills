@@ -7,3 +7,7 @@
 3️⃣ Agar condition true hui toh hum joh loop ki body mae hoga usae execute karenge aur phir execution kae baad phir hum increment karenge **" i++; "**
 
 4️⃣ Humae ismae U follow karna hota hai **" condition »» execute body »» increment "**. Aur tub tuk follow hoiga jub tuk condition false na ho jaye.
+
+    for (int i = 1; i <= 10; i++){
+      System.out.println(i);
+    }
