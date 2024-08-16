@@ -23,7 +23,8 @@ public class RotateArray {
 
   public void rotate(int[] a, int k) {
     int n = a.length;
-    k = k % n;
+    k = k % n; // iska mtlb hai agar kbhi 'k' kae value 'n' sae jaada hogi to mod karne sae 'k'
+               // ki value 'n' sae kum ho jayegi
     reverse(a, 0, n - k - 1);
     reverse(a, n - k, n - 1);
     reverse(a, 0, n - 1);
@@ -40,3 +41,12 @@ public class RotateArray {
   }
 
 }
+
+/*
+ * 🔸Approach »» Ismae hum diye huae array ko 3 step mae break karengae
+ * 1️⃣ Pheli baar hum "n - k" karenge jissae humae index value milegi jaha sae
+ * hamae array ko ghumana hai.
+ * 2️⃣ Phir array ko 2 parts mae reverse karenge. Phela reverse hoga
+ * "0 sae n-k-1" aur dusra reverse hoga "n-k sae n-1".
+ * 3️⃣ Aur phir purae array ko reverse kardenge.
+ */
