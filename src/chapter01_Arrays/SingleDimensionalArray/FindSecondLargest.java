@@ -3,7 +3,7 @@ package chapter01_Arrays.SingleDimensionalArray;
 /*
  🔸Find the second largest element in the given array. 
  */
-public class Question_5 {
+public class FindSecondLargest {
 
     public static void main(String[] args) {
 
