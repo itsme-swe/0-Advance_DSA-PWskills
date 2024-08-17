@@ -11,3 +11,11 @@
     for (int i = 1; i <= 10; i++){
       System.out.println(i);
     }
+
+## How modulus operator works
+
+**🔸 Formula used to find remainder : "x - ny < y"** iska matlab hai jub bhi hum x ko y sae divide kare toh joh remainder ayega vo hamesha **'y'** sae chota hona chaiye.
+
+    Example 1️⃣ : 15 % 10 = 5 hoga answer kyuki "15 - 10" karenge toh 5 ayega aur '5' '10' sae chota hai.
+
+    Example 2️⃣ : 2 % 10 = 2 hoga answer kyuki '2' '10' sae chota hai.
