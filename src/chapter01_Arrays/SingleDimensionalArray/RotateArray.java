@@ -14,8 +14,7 @@ public class RotateArray {
 
     int k = 3;
 
-    RotateArray rotateArray = new RotateArray();
-    rotateArray.rotate(arr, k);
+    rotate(arr, k);
 
     for (int i = 0; i < arr.length; i++) {
       System.out.print(arr[i] + " ");
@@ -23,7 +22,7 @@ public class RotateArray {
 
   }
 
-  public void rotate(int[] a, int k) {
+  public static void rotate(int[] a, int k) {
     int n = a.length;
     k = k % n; // iska mtlb hai agar kbhi 'k' kae value 'n' sae jaada hogi to mod karne sae 'k'
                // ki value 'n' sae kum ho jayegi
@@ -32,7 +31,7 @@ public class RotateArray {
     reverse(a, 0, n - 1);
   }
 
-  public void reverse(int[] nums, int i, int j) {
+  public static void reverse(int[] nums, int i, int j) {
     while (i < j) {
       int temp = nums[i];
       nums[i] = nums[j];
@@ -45,6 +44,8 @@ public class RotateArray {
 }
 
 /*
+ * 🔸 Output : 70 80 90 10 20 30 40
+ * 
  * 🔸Approach »» Ismae hum diye huae array ko 3 step mae break karengae
  * 1️⃣ Pheli baar hum "n - k" karenge jissae humae index value milegi jaha sae
  * hamae array ko ghumana hai.
