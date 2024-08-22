@@ -1,4 +1,4 @@
-package chapter01_Arrays.SingleDimensionalArray;
+package chapter01_Arrays.SingleDimenArray;
 
 /*
  🔸 Find the doublet in the array whose sum is equal to the given targetSum.

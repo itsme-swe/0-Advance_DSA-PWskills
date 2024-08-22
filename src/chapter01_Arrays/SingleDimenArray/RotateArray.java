@@ -1,4 +1,4 @@
-package chapter01_Arrays.SingleDimensionalArray;
+package chapter01_Arrays.SingleDimenArray;
 
 /*
 🔸Given an integer array arr, rotate the array to the right by 'k' steps, where k is non-negative.

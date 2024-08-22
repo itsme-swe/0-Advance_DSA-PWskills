@@ -1,4 +1,4 @@
-package chapter01_Arrays.SingleDimensionalArray;
+package chapter01_Arrays.SingleDimenArray;
 
 /*
  🔸 Sort the array of 0's and 1's.

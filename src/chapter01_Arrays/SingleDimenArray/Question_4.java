@@ -1,4 +1,4 @@
-package chapter01_Arrays.SingleDimensionalArray;
+package chapter01_Arrays.SingleDimenArray;
 
 /*
  🔸Find the maximum value out of all the elements in the array 

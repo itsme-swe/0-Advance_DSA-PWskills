@@ -1,4 +1,4 @@
-package chapter01_Arrays.SingleDimensionalArray;
+package chapter01_Arrays.SingleDimenArray;
 
 import java.util.Scanner;
 
