@@ -10,10 +10,13 @@ public class basicDeclaration {
 
       int[][] grid = new int[3][3];
 
+      int m = grid.length; // Number of rows in grid array
+      int n = grid[0].length; // Number of columns in grid array
+
       System.out.print("Enter the elements of 2D Array: ");
 
-      for (int i = 0; i < grid.length; i++) {
-        for (int j = 0; j < grid.length; j++) {
+      for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
           grid[i][j] = sc.nextInt();
         }
       }
@@ -29,8 +32,8 @@ public class basicDeclaration {
       System.out.println();
 
       // »» Traversing through normal "for loop"
-      for (int i = 0; i < grid.length; i++) {
-        for (int j = 0; j < grid.length; j++) {
+      for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
           System.out.print(grid[i][j] + " ");
         }
         System.out.println();
