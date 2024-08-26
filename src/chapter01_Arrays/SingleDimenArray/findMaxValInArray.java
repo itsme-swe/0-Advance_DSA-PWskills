@@ -3,7 +3,7 @@ package chapter01_Arrays.SingleDimenArray;
 /*
  🔸Find the maximum value out of all the elements in the array 
  */
-public class Question_4 {
+public class findMaxValInArray {
     public static void main(String[] args) {
 
         int[] arr = { 5, 10, 55, 125, 45, 105 };

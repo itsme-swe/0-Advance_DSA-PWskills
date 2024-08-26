@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
  🔸Find the element 'x' in the array. Take array x as input. 
  */
-public class Question_3 {
+public class findElementInArray {
     public static void main(String[] args) {
 
         try (Scanner sc = new Scanner(System.in)) {

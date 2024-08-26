@@ -6,7 +6,7 @@ package chapter01_Arrays.SingleDimenArray;
   🔹Approach ↣ Array ko iterate karengae aur 1 extra variable laengae 'sum' name sae jisko initiate karenge 0 sae. Aur phir 
   condition kae andar array[i] ko sum mae plus karte jayenge.  
  */
-public class Question_2 {
+public class sumOfArray {
     public static void main(String[] args) {
 
         int[] arr = { 4, 5, 10, 30, 18 };
