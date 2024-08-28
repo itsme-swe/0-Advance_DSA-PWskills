@@ -29,9 +29,8 @@ public class transposeMatrix {
 
     for (int j = 0; j < n; j++) {
       for (int i = 0; i < m; i++) {
-        transArr[j][i] = arr[i][j];
+        transArr[i][j] = arr[j][i];
       }
-      System.out.println();
     }
 
     System.out.println("Array after transposing: ");
