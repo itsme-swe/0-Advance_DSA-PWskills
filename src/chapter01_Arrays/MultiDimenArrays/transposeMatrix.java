@@ -14,9 +14,30 @@ public class transposeMatrix {
     int m = arr.length;
     int n = arr[0].length;
 
+    System.out.println("Original Array:");
+
+    for (int[] row : arr) {
+      for (int ele : row) {
+        System.out.print(ele + " ");
+      }
+      System.out.println();
+    }
+
+    System.out.println();
+
+    int[][] transArr = new int[n][m];
+
     for (int j = 0; j < n; j++) {
       for (int i = 0; i < m; i++) {
-        System.out.print(arr[i][j] + " ");
+        transArr[j][i] = arr[i][j];
+      }
+      System.out.println();
+    }
+
+    System.out.println("Array after transposing: ");
+    for (int[] col : transArr) {
+      for (int ele : col) {
+        System.out.print(ele + " ");
       }
       System.out.println();
     }
