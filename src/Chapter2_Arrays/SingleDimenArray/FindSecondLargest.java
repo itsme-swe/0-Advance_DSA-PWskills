@@ -1,4 +1,4 @@
-package chapter01_Arrays.SingleDimenArray;
+package Chapter2_Arrays.SingleDimenArray;
 
 /*
  🔸Find the second largest element in the given array. 

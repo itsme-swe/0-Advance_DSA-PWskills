@@ -1,4 +1,4 @@
-package chapter01_Arrays.MultiDimenArrays;
+package Chapter2_Arrays.MultiDimenArrays;
 
 /*
  * Find the largest element of a given 2D array of Integers.

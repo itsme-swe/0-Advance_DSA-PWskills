@@ -1,4 +1,4 @@
-package chapter01_Arrays.ArrayList;
+package Chapter2_Arrays.ArrayList;
 
 import java.util.ArrayList;
 

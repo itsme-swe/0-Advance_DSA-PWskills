@@ -1,4 +1,4 @@
-package chapter01_Arrays.SingleDimenArray;
+package Chapter2_Arrays.SingleDimenArray;
 
 /*
  🔸Calculate the sum of all the elements in the given array.

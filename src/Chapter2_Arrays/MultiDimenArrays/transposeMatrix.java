@@ -1,4 +1,4 @@
-package chapter01_Arrays.MultiDimenArrays;
+package Chapter2_Arrays.MultiDimenArrays;
 
 /*
 💥 Write a program to print the transpose of the matrix entered by the user and store in the matrix. 

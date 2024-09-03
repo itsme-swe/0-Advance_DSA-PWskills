@@ -1,4 +1,4 @@
-package chapter01_Arrays.MultiDimenArrays;
+package Chapter2_Arrays.MultiDimenArrays;
 
 public class sumOf2DMatrix {
 

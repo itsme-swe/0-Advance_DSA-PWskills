@@ -1,4 +1,4 @@
-package chapter01_Arrays.MultiDimenArrays;
+package Chapter2_Arrays.MultiDimenArrays;
 
 /*
  * In this question we need to transpose the matrix without creating an new matrix.
