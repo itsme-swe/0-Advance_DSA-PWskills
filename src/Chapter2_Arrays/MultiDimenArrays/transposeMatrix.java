@@ -3,7 +3,7 @@ package Chapter2_Arrays.MultiDimenArrays;
 /*
 💥 Write a program to print the transpose of the matrix entered by the user and store in the matrix. 
 
-🔸Transpose means row ko column mae convert karnaya column ko row mae convert karna.
+🔸Transpose means row ko column mae convert karna hai aur column ko row mae convert karna, isliye outer loop joh 'i' kae liye chalta hai vo chalega inner loop ki length    tuk aur inner loop chalega outer loop ki length tuk.
  */
 public class transposeMatrix {
 
